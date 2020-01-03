@@ -1,3 +1,86 @@
-/* table{
-    width:100%
-} */
+@font-face {
+    font-family: "Gotham Pro";
+    src:    url("../fonts/GothaProMed.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SourceSansPro";
+    src:    url("../fonts/SourceSansPro-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-family: 'Gotham Pro';
+    font-size:30px;
+    padding-bottom:20px;
+}
+h2{
+    font-family: 'SourceSansPro';
+	font-size:20px;
+}
+li{
+    font-family: 'SourceSansPro';
+    font-size:20px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#384554;
+}
+.contact-header li a{
+        text-decoration: none;
+        font-size:16px;
+        color:#ffffff;
+    
+}
+.contact-header li:nth-child(1){
+    background-image: url(../images/assets/tel.svg);
+    background-repeat: no-repeat;
+    background-position: -5px -1.68px;
+    padding: 14px 40px;
+}
+.contact-header li:nth-child(2){
+    background-image: url(../images/assets/mail.svg);
+    background-repeat: no-repeat;
+    background-position: -5px -1.68px;
+    padding: 14px 40px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:100%;
+    padding: 20px 50px;
+    background-color: #384554;
+    color: #ffffff;
+}
+.photo-de-profil{
+    width:15%;
+}
+.profil{
+    width:50%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+hr{
+    width: 60%;
+    height: 10px;
+    background-color:#384554;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:40%;
+}
+.photo-de-profil img{
+    height : 150px;
+    width : 150px;
+    border-radius: 80px;
+    overflow : hidden;
+}
